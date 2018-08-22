@@ -1,5 +1,5 @@
-function Note() {
-  this.text = "My favourite language is JavaScript";
+function Note(text = "My favourite language is JavaScript") {
+  this.text = text;
 }
 
 Note.prototype.getText = function() {

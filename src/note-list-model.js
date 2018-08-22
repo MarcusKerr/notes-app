@@ -6,6 +6,8 @@ NoteList.prototype.getNotes = function(){
   return this.notes_array;
 }
 
-NoteList.prototype.addNote =function(note) {
-  this.notes_array.push(note);
+NoteList.prototype.addNote =function(noteText) {
+  this.notes_array.push(new Note(noteText));
 }
+
+
