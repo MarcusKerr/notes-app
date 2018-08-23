@@ -1,4 +1,3 @@
-
 var note = new Note();
 
-expect("2 to Equal 2", 2+2).toEqual(5);
+expect("Note to be instantiated with the specified text", note.getText()).toEqual("My favourite language is JavaScript");
