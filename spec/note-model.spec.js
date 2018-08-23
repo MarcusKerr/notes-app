@@ -1,4 +1,4 @@
 
 var note = new Note();
 
-isEqualTo("Returns my favourite language is JavaScript", note.getText(), 'My favourite language is JavaScript');
+expect("2 to Equal 2", 2+2).toEqual(5);
