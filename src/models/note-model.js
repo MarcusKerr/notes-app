@@ -1,6 +1,6 @@
 (function(exports){
   
-  function Note(text = "My favourite language is JavaScript") {
+  function Note(text) {
     this.text = text;
   }
 
