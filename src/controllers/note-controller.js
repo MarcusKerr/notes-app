@@ -1,11 +1,11 @@
 (function (exports) {
-  function Controller (noteListModel) {
-    this.noteListView = new NoteListView(noteListModel)
+  function Controller (noteListView = new NoteListView) {
+    this.noteListView = noteListView;
   }
 
   Controller.prototype.generateHTML = function () {
-    var app = document.getElementById('app')
-    app.innerHTML = this.noteListView.create()
+    var app = document.getElementById('app');
+    app.innerHTML = this.noteListView.create();
   }
 
   exports.Controller = Controller
