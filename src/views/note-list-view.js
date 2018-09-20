@@ -11,5 +11,5 @@
     return `<ul>${this.html_string_arr.join('')}</ul>`
   }
 
-  exports.NoteListView = NoteListView
+  exports.NoteListView = NoteListView;
 })(this)

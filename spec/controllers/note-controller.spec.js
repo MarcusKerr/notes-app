@@ -1,22 +1,24 @@
 
-function noteListModelDouble () {
-  this.notes_array = []
+function NoteListDouble () {
+  this.noteList = [];
 }
 
-// function noteListViewDouble () {
-// }
+NoteListDouble.prototype.addNote = function(text = 'This is the text') {
+  this.noteList.push(text);
+}
 
-// noteListViewDouble.prototype.create = function () {
-//   return '<ul><li><div>This is the text</div></li></ul>'
-// }
+function NoteListViewDouble (noteListDouble) {
+  this.noteList = noteListDouble;
+}
 
-// noteListModelDouble.prototype.getNotes = function () {
-//   return this.notes_array
-// }
+NoteListViewDouble.prototype.create = function () {
+  return `<ul><li><div>${this.noteList[0]}</div></li></ul>`
+}
 
-// noteListModelDouble.prototype.addNote = function (noteText) {
-//   this.notes_arrasy.push(new Note(noteText))
-// }
 
-var contoller = new Controller(noteListModelDouble)
-expect('Generate html', app.innerHTML).toEqual('<ul><li><div>This is the text</div></li></ul>')
+NoteListDouble.prototype.getNotes = function () {
+  return this.notes_array
+}
+var testController = new Controller(NoteListDouble, NoteListViewDouble)
+testConttoller.generateHTML();
+expect('Generate html', app.innerHTML).toEqual('<ul><li><div>Waka</div></li></ul>')
