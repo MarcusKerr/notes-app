@@ -7,6 +7,17 @@
 </head>
 <body>
   <h1>Notes App</h1>
+  <form id="noteForm" method="post" action="/notes/">
+    <div>
+      <input type="text" name="noteTitle" placeholder="Enter Title">
+    </div>
+    <div>
+      <textarea name="note" placeholder="Enter note..."></textarea>
+    </div>
+    <div>
+      <input type="submit" value="Submit">
+    </div>
+  </form>
   <div id="app"></div>
   <script src = "src/models/note-model.js"></script>
   <script src = "src/models/note-list-model.js"></script>
