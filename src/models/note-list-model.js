@@ -8,8 +8,8 @@
     return this.notes_array;
   }
 
-  NoteList.prototype.addNote =function(noteText) {
-    this.notes_array.push(new this.note_class(noteText));
+  NoteList.prototype.addNote =function(noteText, id = this.notes_array.length) {
+    this.notes_array.push(new this.note_class(noteText, id));
   }
 
   exports.NoteList = NoteList;
