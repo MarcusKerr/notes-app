@@ -6,7 +6,7 @@
 
   NoteListView.prototype.create = function () {
     for (var i = 0; i < this.note_list.getNotes().length; i++) {
-      this.html_string_arr.push(`<li><div>${this.note_list.getNotes()[i].getText().substring(0,20)}</div></li>`)
+      this.html_string_arr.push(`<li><a href="#${this.note_list.getNotes()[i].id}"><div>${this.note_list.getNotes()[i].getText().substring(0,20)}</div></a></li>`)
     }
     return `<ul>${this.html_string_arr.join('')}</ul>`
   }
