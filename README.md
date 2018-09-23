@@ -25,25 +25,25 @@ $ git clone https://github.com/MarcusKerr/notes-app.git
 ```
 Once cloned, open `index.html` and you're ready to go!
 
-<img width="1440" alt="index" src="https://user-images.githubusercontent.com/15127871/45927513-04839a80-bf2c-11e8-822d-da1da53541e5.png">
+<img width="754" alt="index" src="https://user-images.githubusercontent.com/15127871/45927707-fe42ed80-bf2e-11e8-8a27-fc4c3ea3eb7f.png">
 
 
 #### 1. Create a note
 
 In order to create your first Note, type your desired content into the textarea and click the submit button.
 
-<img width="1440" alt="create note" src="https://user-images.githubusercontent.com/15127871/45927529-4ca2bd00-bf2c-11e8-9baa-7d3c4cbfb420.png">
+<img width="732" alt="create note" src="https://user-images.githubusercontent.com/15127871/45927715-1155bd80-bf2f-11e8-9525-6504bff0bb98.png">
 
 
 #### 2. View a note
 
 Once a Note has been created, a corresponding link will appear in the Note List
 
-<img width="1440" alt="view note" src="https://user-images.githubusercontent.com/15127871/45927534-7d82f200-bf2c-11e8-8d54-8a81a3204d02.png">
+<img width="718" alt="view note" src="https://user-images.githubusercontent.com/15127871/45927716-1e72ac80-bf2f-11e8-9d98-f5ccde3c29d6.png">
 
 Clicking this link will take you to a page that displays the Note's full content.
 
-<img width="1440" alt="single note page" src="https://user-images.githubusercontent.com/15127871/45927556-f5511c80-bf2c-11e8-85c4-aa8b55ae50ac.png">
+<img width="659" alt="single note page" src="https://user-images.githubusercontent.com/15127871/45927721-29c5d800-bf2f-11e8-944f-4bf82305b093.png">
 
 
 ## Running tests
@@ -52,11 +52,9 @@ To view the tests open your browsers development tools and click on the console 
 
 The results of the test scrips can be seen here.
 
-<img width="1440" alt="tests" src="https://user-images.githubusercontent.com/15127871/45927595-7f00ea00-bf2d-11e8-9452-81fe32b5d162.png">
+<img width="1188" alt="tests" src="https://user-images.githubusercontent.com/15127871/45927723-32b6a980-bf2f-11e8-8965-c3c0bdc93ba9.png">
 
-
-
-## User storeis
+## User stories
 
 ```terminal
 As a programmer
