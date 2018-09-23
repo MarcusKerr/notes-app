@@ -43,9 +43,6 @@ Once a Note has been created, a corresponding link will appear in the Note List
 
 Clicking this link will take you to a page that displays the Note's full content.
 
-<img width="659" alt="single note page" src="https://user-images.githubusercontent.com/15127871/45927721-29c5d800-bf2f-11e8-944f-4bf82305b093.png">
-
-
 ## Running tests
 
 To view the tests open your browsers development tools and click on the console tab.
