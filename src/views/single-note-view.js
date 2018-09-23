@@ -5,7 +5,7 @@
   };
 
   SingleNoteView.prototype.render = function(){
-    return `<div><p>${this.note.read()}</p></div>`;
+    return `<div class="singleNote"><p class="noteText">${this.note.read()}</p></div>`;
   };
 
   exports.SingleNoteView = SingleNoteView;

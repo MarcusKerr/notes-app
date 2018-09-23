@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+  width:  100%;
+}
+
+#appContainer {
+  width: 70%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+#noteList {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+li {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+form {
+  text-align: center;
+}
+
+#noteText{
+  width: 60%;
+  height: 100px;
+}
+
+.singleNote {
+  max-width: 60%;
+  margin: 0 auto;
+}

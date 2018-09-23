@@ -4,14 +4,19 @@
   <meta charset="utf-8" />
   <title>Notes App - Marcus Kerr</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Notes App</h1>
-  <div id="app"></div>
-  <form id="noteForm">
-    <textarea id="noteText" cols="70" rows="10" placeholder="Enter your note here...."></textarea>
-    <input type="submit" value="Submit">
-  </form>
+  <div id="appContainer">
+    <h1>Notes Js</h1>
+    <div id="app"></div>
+    <form id="noteForm">
+      <textarea id="noteText" placeholder="Enter your note here...."></textarea>
+      <div>
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
   <script src = "src/models/note-model.js"></script>
   <script src = "src/models/note-list-model.js"></script>
   <script src = "src/views/note-list-view.js"></script>
